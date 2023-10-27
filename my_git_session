@@ -1,0 +1,53 @@
+Script started on 2023-10-27 15:27:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: ~[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m~[00m$ git --version
+[?2004lgit version 2.34.1
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: ~[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m~[00m$ f[Kgitinit
+[?2004lgitinit: command not found
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: ~[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m~[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/anshpanda09/.git/
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: ~[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m~[00m$ cd [7m/mnt/c/Users/Anshuman[27m/mnt/c/Users/Anshuman
+[?2004l[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman[00m$ cd Desktop/My_project/
+[?2004l[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git init
+[?2004lReinitialized existing Git repository in /mnt/c/Users/Anshuman/Desktop/My_project/.git/
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git config user.email
+[?2004lanshuman.panda@tigeranlytics.com
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git config user.name
+[?2004lAnshuman
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git [K[K[K[Ktouch sample[K[K[K[K[K[K[K[K[K[K[K[Kgit checkout sub_branch 
+[?2004lAlready on 'sub_branch'
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git checkout branch1 
+[?2004lSwitched to branch 'branch1'
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ gi[K[Ktouch tex[K[K[Kfirst.ter[Kxt
+[?2004l[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git add ,[K.
+[?2004l[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git co[K[Kstatus
+[?2004lOn branch branch1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   first.text[m
+
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git commit -,[Km 'Intial Commit"[K'
+[?2004l[branch1 b7a88b5] Intial Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.text
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git merge sub_branch 
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 6.2                     /mnt/c/Users/Anshuman/Desktop/My_project/.git/MERGE_MSG                              [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dMerge branch 'sub_branch' into branch1[3d[36m# Please enter a commit message to explain why this merge is necessary,[4d# especially if it merges an updated upstream into a topic branch.[5d#[6d# Lines starting with '#' will be ignored, and an empty message aborts[7d# the commit.[2d[39m(B[m[?12l[?25h[?25l[28;32H(B[0;7m[ line  1/7 (14%), col  1/39 (  2%), char   0/265 ( 0%) ](B[m[?12l[?25h[2d[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[KMerge made by the 'ort' strategy.
+ .gitignore | 0
+ readme.md  | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 readme.md
+[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ git remote -v[Kv
+[?2004l[?2004h(base) ]0;anshpanda09@LAPTOP-U68BF3VN: /mnt/c/Users/Anshuman/Desktop/My_project[01;32manshpanda09@LAPTOP-U68BF3VN[00m:[01;34m/mnt/c/Users/Anshuman/Desktop/My_project[00m$ exit
+[?2004lexit
+
+Script done on 2023-10-27 15:32:03+05:30 [COMMAND_EXIT_CODE="0"]
